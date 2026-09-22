@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-try:
+if len(sys.argv)-1 > 0:
     print(sys.argv[1])
-except:
+else:
     print("none")
